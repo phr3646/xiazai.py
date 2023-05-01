@@ -151,4 +151,3 @@ def save_result(username, video_url):
         monitor_menu.add_command(label="启动监测", command=start_monitoring)
         monitor_menu.add_command(label="停止监测", command=stop_monitoring)
         menu_bar.add_cascade(label="监测", menu=monitor_menu)
-
